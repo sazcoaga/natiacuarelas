@@ -26,14 +26,7 @@ header div{
 }
 
 
-#marca{
-    color: white;
-    font-size: 500px;
-    font-family: 'Handlee', cursive;
-  
 
-    
-}
 
 #contenedorHeader{
     display: flex;
@@ -45,12 +38,14 @@ header div{
 
 #contenedorHeader .marca a{
     font-size: 200%;
+    color: white;
 }
 
 .marca, .marcaSmall{
     width: 30%;
     align-self: center;
     font-family: 'Handlee', cursive;
+    color: white;
     
 }
 
@@ -157,16 +152,164 @@ footer div{
 }
 
 
+/*Contacto Pagina principal*/
 
+.contenedorFormularios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+.contenedorFormulario{
+    border: 1px solid black;
+    text-align: center;
+    margin: 3%;
+    border-radius: 15px;
+    
+
+}
+
+
+.opcionFormulario{
+    
+}
+
+
+
+.tituloForm{
+    font-size: 150%;
+    padding: 5%;
+}
+
+.parrafoForm{
+    font-size: 100%;
+    padding: 20% 10%;
+}
+
+.clicForm{
+    margin: 10% 0;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    
+}
+
+
+
+
+#contenedorFormComentario{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    
+    
+}
+
+.explicacionForm{
+    font-size: small;
+    padding: 10%;
+}
+
+.campoObligatorio{
+    font-size: small;
+    text-align: left;
+    padding-left: 5%;
+    font-style: italic;
+}
+
+#formularioComentario{
+    text-align: left;
+    padding-left: 10%;
+    
+
+}
+
+.nombreCampo{
+    padding-top: 10%;
+}
+
+.campo{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.enviar{
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 10%;
+    
+}
+
+.botonEnviar{
+    border-radius: 10px;
+    padding: 0 5%;
+    width:  40%;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
 @media screen and (min-width: 901px) {
    
     .marcaSmall{
         display: none;
     }
+
+
+/*Formularios*/
+    .contenedorFormulario{
+        width: 30%;
+    }
+
+    #contenedorFormComentario{
+        width: 50%;
+    }
    }
    
+@media screen  and (min-width: 501px) and (max-width:900px) {
+    #contenedorHeader{
+        justify-content: flex-end;
+    }
+       .itemMenu{
+          width: 25%;
+          padding:5px;
+          font-size: 10px;
+          
+         
+      }
+   
+      .marca{
+          display: none;
+      }
+   
+      #contenedorHeader .marcaSmall a{
+          font-size: 250%;
+          border: 1px solid black;
+          border-radius: 100%;
+          padding: 2px 15px;
+          
+      }
 
-@media screen and (max-width: 900px) and (min-width: 0px){
+      .contenedorFormulario{
+        width: 60%;
+        max-width: 295px;
+    }
+
+    #contenedorFormComentario{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 0px){
    
  #contenedorHeader{
      justify-content: flex-end;
@@ -188,5 +331,15 @@ footer div{
        border: 1px solid black;
        border-radius: 100%;
        padding: 2px 15px;
+       
+   }
+
+   .contenedorFormulario{
+       width: 60%;
+       max-width: 295px;
+   }
+
+   #contenedorFormComentario{
+       width: 80%;
    }
 }
