@@ -78,6 +78,72 @@ header div{
     
 }
 
+.contenedorIndex{
+    display: flex;
+    padding: 10%;
+    
+}
+
+.contenidoIndex{
+    width: 50%;
+    
+}
+
+.imgIndex{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+#videoIndex{
+    width: 100%;
+    padding: 20% 0;
+    
+}
+
+video{
+    max-width: 100%;
+}
+
+.superContenedorPresentacion{
+    padding: 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+#tituloPresentacion{
+    
+    padding: 2%;
+    font-size: 30px;
+}
+
+.superContenidoPresentacion{
+    width: 100%;
+    text-align: center;
+}
+
+.contenedorPresentacion{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.imgPresentacion{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.contenidoPresentacion{
+    width: 50%;
+    text-align: justify;
+}
 h1{
     text-align: center;
     font-size: 300%;
@@ -259,6 +325,9 @@ footer div{
 
 
 /* MEDIA QUERIES */
+
+
+/*MEDIA GRANDE--------*/
 @media screen and (min-width: 901px) {
    
     .marcaSmall{
@@ -275,6 +344,9 @@ footer div{
         width: 50%;
     }
    }
+
+
+/*MEDIA MEDIANO ---------- */
    
 @media screen  and (min-width: 501px) and (max-width:900px) {
     #contenedorHeader{
@@ -308,7 +380,27 @@ footer div{
     #contenedorFormComentario{
         width: 60%;
     }
+
+    video{
+        width: 60vw;
+    }
+
+    .contenedorPresentacion{
+        width: 80%;
+        flex-wrap: wrap;
+ 
+    }
+    .contenidoPresentacion{
+        width: 100%;
+        margin: 0 auto;
+        padding: 5%;
+    }
 }
+
+
+
+/*MEDIA CHIQUITO -----------------------*/
+
 @media screen and (max-width: 500px) and (min-width: 0px){
    
  #contenedorHeader{
@@ -341,5 +433,20 @@ footer div{
 
    #contenedorFormComentario{
        width: 80%;
+   }
+
+   video{
+       width: 80vw;
+   }
+
+   .contenedorPresentacion{
+       width: 100%;
+       flex-wrap: wrap;
+
+   }
+   .contenidoPresentacion{
+       width: 80%;
+       margin: 0 auto;
+       padding: 5%;
    }
 }
