@@ -21,9 +21,7 @@ header{
     
 }
 
-.contenedorInicio{
-    
-}
+
 
 header div{
   
@@ -749,7 +747,7 @@ footer div{
       }
    
       #videoIndex, .imgIndex{
-          width: 100px;
+          width: 180px;
       }
       
       #tituloInicio, .tituloIndex{
