@@ -2,40 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-}
-
-body{
-    
 }
 
 header{
-    
     height: 70px;
     position: sticky;
     top: 0;
-    background-color: rgba(236, 208, 171, 1) ;
-    
-    
-    
+    background-color: rgba(236, 208, 171, 1) ; 
 }
-
-
-
-header div{
-  
-}
-
-
-
 
 #contenedorHeader{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-   
-    
 }
 
 #contenedorHeader .marca a{
@@ -48,10 +27,8 @@ header div{
     align-self: center;
     font-family: 'Handlee', cursive;
     color: white;
-    padding-left: 2%;
-    
+    padding-left: 2%; 
 }
-
 
 .cuadrados{
     display: flex;
@@ -79,36 +56,29 @@ header div{
     background-color: rgba(236, 208, 171, 0.25);
 }
 
-
 .contenidoMenu{
-    
     width: 65%;
-    
 }
-#contenedorMenu{
-   
+
+#contenedorMenu{  
     display: flex;
     padding: 0;
     justify-content: flex-end;
     align-self: flex-end;
-    
 }
 
 .itemMenu{
     width: 12%;
-    
     border-radius: 5px;
     height: auto;
     text-align: center;
     align-self: flex-end;
     margin: 0 3px;
     font-size: 25px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;  
 }
 
 #contenedorMenu .itemMenu a{
-    
     padding:5%;
     border-radius: 10px;
 }
@@ -123,8 +93,7 @@ header div{
     padding-bottom: 0;
     font-size: 80px;
     font-family: 'Handlee', cursive;
-    color:burlywood;
-    
+    color:burlywood;  
 }
 
 #autor{
@@ -134,7 +103,6 @@ header div{
     padding-bottom: 5%;
 }
 
-
 .contenedorIndex1{
     display: flex;
     flex-wrap: wrap;
@@ -142,18 +110,18 @@ header div{
     width: 80%;
     margin: 0 auto;
 }
+
 .contenidoIndex1{
     width: 50%;
     text-align: center;
-    padding:5%;
-    
+    padding:5%; 
 }
+
 .imgIndex{
     width: 400px;
     border: 2px solid rgba(236, 208, 171, 1);
     background-color: rgba(236, 208, 171, 0.5);
     padding: 3%;
-   
 }
 
 #videoIndex{
@@ -161,8 +129,7 @@ header div{
     max-width: 100%;
     padding:3%;
     border: 2px solid rgba(236, 208, 171, 1);
-    background-color: rgba(236, 208, 171, 0.5);
-    
+    background-color: rgba(236, 208, 171, 0.5); 
 }
 
 #tituloInicio{
@@ -180,28 +147,22 @@ header div{
 .contenedorPromocion, .opcionesPromocion{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
+
 .tituloPromocion{
     width: 100%;
     text-align: center;
     font-size: 110%;
-    font-weight: bolder;
-    
+    font-weight: bolder;   
 }
-
 
 .opcionPromocion{
     width: 100%;
     text-align: center;
-    
     margin: 5% auto;
     max-width: 400px;
-
 }
-
-
 
 .opcionPromocion div{
     font-size: 20px;
@@ -213,15 +174,13 @@ header div{
     padding: 2%;
     border-radius: 10px;
     background-color: rgba(236, 208, 171, 0.1);
-
 }
 
 .opcionPromocion div a:hover{
     background-color: rgba(236, 208, 171, 0.7);
 }
 
-.imagenPresentacion{
-    
+.imagenPresentacion{  
    width: 250px;
 }
 
@@ -233,9 +192,7 @@ header div{
 .parrafoPresentacion{
     max-width: 30%;
     text-align: justify;
-    font-size: 105%;
-
-    
+    font-size: 105%;  
 }
 
 .tituloSobreMi{
@@ -244,11 +201,10 @@ header div{
     font-size: 200%;
     font-family: 'Handlee', cursive;
     background-color: rgba(236, 208, 171, 0.75);
-
 }
 
 .contenidoPromocion{
-    width: 50%;
+    width: 100%;
 }
 
 .contenedorPresentacion{
@@ -258,23 +214,19 @@ header div{
 
 .contenidoImgPres{
     display: flex;
-    flex-wrap: wrap;
-    
-
+    flex-wrap: wrap;  
 }
-
-
 
 h1{
     text-align: center;
     font-size: 300%;
     padding: 5%;
 }
+
 .acuarelaImagen{
     max-width: 306px;
     max-height: 407.913px;
-    border-radius: 45px;
-    
+    border-radius: 45px; 
 }
 
 .imagenContenedor{
@@ -282,28 +234,25 @@ h1{
     overflow: hidden;
     margin-bottom: 50px;
     padding: 5%;
-    
 }
 
 .tituloImagen{
     font-size: 125%;
 }
+
 .descripcionImagen{
     font-size: 80%;
     height: 8%;
     overflow: hidden;
     max-width: 290px;
     margin-left: auto;
-    margin-right: auto;
-    
-    
+    margin-right: auto; 
 }
 
 div a{
     font-size: small;
     color:black;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 div a:visited{
@@ -312,8 +261,6 @@ div a:visited{
 }
 
 footer{
-    /*position: sticky;
-    bottom: 0;*/
     height: 50px;
    position: relative;
     text-align: right;
@@ -334,36 +281,20 @@ footer div{
     padding: 3px;
 }
 
-#galeria{
-    
-}
-
-
 /*Contacto Pagina principal*/
 
 .contenedorFormularios{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
-    
-    
+    justify-content: space-around;    
 }
+
 .contenedorFormulario{
     border: 1px solid black;
     text-align: center;
     margin: 3%;
     border-radius: 15px;
-    
-
 }
-
-
-.opcionFormulario{
-    
-}
-
-
 
 .tituloForm{
     font-size: 150%;
@@ -379,12 +310,8 @@ footer div{
     margin: 10% 0;
     border-radius: 10px;
     padding: 5px;
-    background-color: white;
-    
+    background-color: white;    
 }
-
-
-
 
 #contenedorFormComentario{
     text-align: center;
@@ -394,9 +321,7 @@ footer div{
     max-width: 450px;
     height: auto;
     border-radius: 10px;
-    padding-bottom: 5%;
-    
-    
+    padding-bottom: 5%;    
 }
 
 .explicacionForm{
@@ -414,8 +339,6 @@ footer div{
 #formularioComentario{
     text-align: left;
     padding-left: 10%;
-    
-
 }
 
 .nombreCampo{
@@ -431,7 +354,6 @@ footer div{
     text-align: right;
     padding-right: 10%;
     padding-top: 10%;
-    
 }
 
 .botonEnviar{
@@ -440,14 +362,7 @@ footer div{
     width:  40%;
 }
 
-
-
-
-
-
 /* MEDIA QUERIES */
-
-
 
 /*MEDIA GRANDE--------*/
 @media screen and (min-width: 901px) {
@@ -455,7 +370,6 @@ footer div{
     .marcaSmall{
         display: none;
     }
-
 
 /*Formularios*/
     .contenedorFormulario{
@@ -473,7 +387,6 @@ footer div{
     #videoIndex, .imgIndex{
         max-width: 100%;
     }
-
     
    }
 
@@ -487,9 +400,7 @@ footer div{
        .itemMenu{
           width: 25%;
           padding:5px;
-          font-size: 10px;
-          
-         
+          font-size: 10px;         
       }
    
       .marca{
@@ -501,7 +412,6 @@ footer div{
           border: 1px solid black;
           border-radius: 100%;
           padding: 2px 15px;
-          
       }
 
       .contenedorFormulario{
@@ -518,21 +428,17 @@ footer div{
     }
     
     #videoIndex, .imgIndex{
-        width:  250px;
-        
+        width:  250px; 
     }
 
     .contenedorPresentacion{
         flex-direction: column-reverse;
-        width: 100%;
-    
-        
+        width: 100%; 
     }
+
     .contenidoPresentacion{
         width: 80%;
         text-align: justify;
-        
-     
     }
  
     .imagenPresentacion{
@@ -545,7 +451,6 @@ footer div{
         display: flex;
         flex-wrap: wrap;
         margin: 0 25%;
-
     }
  
     .tituloSobreMi{
@@ -555,11 +460,9 @@ footer div{
          font-size: 100%;
          background-color: rgba(236, 208, 171, 0.75);
          padding: 0 5%;
-         font-family: 'Handlee', cursive;
-         
+         font-family: 'Handlee', cursive; 
     }
  
-    
     .contenidoImgPres{
         width: 50%;
     }
@@ -572,12 +475,8 @@ footer div{
     .opcionPromocion{
         width: 40%;
         max-width: 300px;
-        
         padding: 4% 1%;
-        
-
     }
-    
     
     .contenedorPromocion{
         padding: 10% 0 ;
