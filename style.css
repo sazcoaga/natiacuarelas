@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-image: url(imagenes/Acuarelable.png);
+}
 header{
     height: 70px;
     position: sticky;
@@ -227,6 +231,9 @@ h1{
     max-width: 306px;
     max-height: 407.913px;
     border-radius: 45px; 
+    border: 5px solid black;
+    
+    
 }
 
 .imagenContenedor{
@@ -234,10 +241,14 @@ h1{
     overflow: hidden;
     margin-bottom: 50px;
     padding: 5%;
+   
+    
 }
 
 .tituloImagen{
     font-size: 125%;
+    
+    
 }
 
 .descripcionImagen{
