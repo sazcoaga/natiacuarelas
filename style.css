@@ -15,8 +15,8 @@ header{
     height: 70px;
     position: sticky;
     top: 0;
-    background-color: #ffdb58 ;
-    opacity: 0.6;
+    background-color: rgba(236, 208, 171, 1) ;
+    
     
     
 }
@@ -46,10 +46,36 @@ header div{
     align-self: center;
     font-family: 'Handlee', cursive;
     color: white;
+    padding-left: 2%;
     
 }
 
 
+.cuadrados{
+    display: flex;
+    width: 100px;
+    flex-wrap: wrap;
+    margin: 10% auto;
+    justify-content: space-between;
+}
+
+.cuadrado1, .cuadrado2, .cuadrado3, .cuadrado4{
+    width:20%;
+    height: 20px;
+}
+
+.cuadrado1{
+    background-color: rgba(236, 208, 171, 1);
+}
+.cuadrado2{
+    background-color: rgba(236, 208, 171, 0.75);
+}
+.cuadrado3{
+    background-color: rgba(236, 208, 171, 0.5);
+}
+.cuadrado4{
+    background-color: rgba(236, 208, 171, 0.25);
+}
 
 
 .contenidoMenu{
@@ -68,82 +94,175 @@ header div{
 
 .itemMenu{
     width: 12%;
-    border: 1px solid black;
+    
     border-radius: 5px;
     height: auto;
     text-align: center;
     align-self: flex-end;
     margin: 0 3px;
-    font-size: 15px;
+    font-size: 25px;
+    padding-bottom: 10px;
     
 }
 
-.contenedorIndex{
-    display: flex;
-    padding: 10%;
+#contenedorMenu .itemMenu a{
+    
+    padding:5%;
+    border-radius: 10px;
+}
+
+#contenedorMenu .itemMenu a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#banner{
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 0;
+    font-size: 80px;
+    font-family: 'Handlee', cursive;
+    color:burlywood;
     
 }
 
-.contenidoIndex{
-    width: 50%;
-    
-}
-
-.imgIndex{
-    width: 100%;
-    margin: 0 auto;
+#autor{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    padding-bottom: 5%;
 }
 
 
-
-
-#videoIndex{
-    width: 100%;
-    padding: 20% 0;
-    
-}
-
-video{
-    max-width: 100%;
-}
-
-.superContenedorPresentacion{
-    padding: 10% 0;
+.contenedorIndex1{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    background-color: rgba(236, 208, 171, 0.2);
+    width: 80%;
     margin: 0 auto;
+}
+.contenidoIndex1{
+    width: 50%;
+    text-align: center;
+    padding:5%;
     
+}
+.imgIndex{
+    width: 400px;
+    border: 2px solid rgba(236, 208, 171, 1);
+    background-color: rgba(236, 208, 171, 0.5);
+    padding: 3%;
+   
+}
+
+#videoIndex{
+    width: 400px;
+    max-width: 100%;
+    padding:3%;
+    border: 2px solid rgba(236, 208, 171, 1);
+    background-color: rgba(236, 208, 171, 0.5);
     
 }
 
-#tituloPresentacion{
-    
-    padding: 2%;
-    font-size: 30px;
-}
-
-.superContenidoPresentacion{
+#tituloInicio{
     width: 100%;
     text-align: center;
+    font-size: 180%;
+    padding: 3%;
+}
+
+.tituloIndex{
+    font-size: 150%;
+    padding-bottom: 2%;
+}
+
+.contenedorPromocion, .opcionesPromocion{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.tituloPromocion{
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bolder;
+    
+}
+
+
+.opcionPromocion{
+    width: 100%;
+    text-align: center;
+    
+    margin: 5% auto;
+    max-width: 400px;
+
+}
+
+
+
+.opcionPromocion div{
+    font-size: 20px;
+}
+
+.opcionPromocion div a{
+    font-size: 90%;
+    border: 3px solid rgba(236, 208, 171, 1);
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgba(236, 208, 171, 0.1);
+
+}
+
+.opcionPromocion div a:hover{
+    background-color: rgba(236, 208, 171, 0.7);
+}
+
+.imagenPresentacion{
+    
+   width: 250px;
+}
+
+.presentacion{
+    display: flex;
+    width: 50%;
+}
+
+.parrafoPresentacion{
+    max-width: 30%;
+    text-align: justify;
+    font-size: 105%;
+
+    
+}
+
+.tituloSobreMi{
+    width: 10%;
+    padding: 2%;
+    font-size: 200%;
+    font-family: 'Handlee', cursive;
+    background-color: rgba(236, 208, 171, 0.75);
+
+}
+
+.contenidoPromocion{
+    width: 50%;
 }
 
 .contenedorPresentacion{
     display: flex;
-    width: 70%;
-    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
-.imgPresentacion{
-    width: 80%;
-    margin: 0 auto;
+.contenidoImgPres{
+    display: flex;
+    flex-wrap: wrap;
     
+
 }
 
-.contenidoPresentacion{
-    width: 50%;
-    text-align: justify;
-}
+
+
 h1{
     text-align: center;
     font-size: 300%;
@@ -197,8 +316,8 @@ footer{
    position: relative;
     text-align: right;
     margin-top: 20px;
-    background-color: #ffdb58 ;
-    opacity: 0.6;
+    background-color: rgba(236, 208, 171, 1) ;
+    
 }
 
 footer div{
@@ -327,6 +446,7 @@ footer div{
 /* MEDIA QUERIES */
 
 
+
 /*MEDIA GRANDE--------*/
 @media screen and (min-width: 901px) {
    
@@ -343,12 +463,21 @@ footer div{
     #contenedorFormComentario{
         width: 50%;
     }
+
+    .imagenPresentacion{
+        max-width: 300px;
+    }
+
+    #videoIndex, .imgIndex{
+        max-width: 100%;
+    }
+
    }
 
 
 /*MEDIA MEDIANO ---------- */
    
-@media screen  and (min-width: 501px) and (max-width:900px) {
+@media screen  and (min-width: 701px) and (max-width:900px) {
     #contenedorHeader{
         justify-content: flex-end;
     }
@@ -381,27 +510,88 @@ footer div{
         width: 60%;
     }
 
-    video{
-        width: 60vw;
+    .contenidoIndex1{
+        width: 50%;
+    }
+    
+    #videoIndex, .imgIndex{
+        width:  250px;
+        
     }
 
     .contenedorPresentacion{
-        width: 80%;
-        flex-wrap: wrap;
- 
+        flex-direction: column-reverse;
+        width: 100%;
+    
+        
     }
     .contenidoPresentacion{
-        width: 100%;
-        margin: 0 auto;
-        padding: 5%;
+        width: 80%;
+        text-align: justify;
+        
+     
     }
+ 
+    .imagenPresentacion{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+ 
+    .presentacion{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 25%;
+
+    }
+ 
+    .tituloSobreMi{
+        width: 10%;
+         display: flex;
+         flex-wrap: wrap;
+         font-size: 100%;
+         background-color: rgba(236, 208, 171, 0.75);
+         padding: 0 5%;
+         font-family: 'Handlee', cursive;
+         
+    }
+ 
+    
+    .contenidoImgPres{
+        width: 50%;
+    }
+ 
+    .parrafoPresentacion{
+        background-color: rgba(236, 208, 171, 0.2);
+        max-width: 100%;
+    }
+   
+    .opcionPromocion{
+        width: 40%;
+        max-width: 300px;
+        
+        padding: 4% 1%;
+        
+
+    }
+    
+    
+    .contenedorPromocion{
+        padding: 10% 0 ;
+    }
+
+    .contenidoPromocion{
+        width: 100%;
+    }
+
+
 }
 
 
 
 /*MEDIA CHIQUITO -----------------------*/
 
-@media screen and (max-width: 500px) and (min-width: 0px){
+@media screen and (max-width: 700px) and (min-width: 450px){
    
  #contenedorHeader{
      justify-content: flex-end;
@@ -435,18 +625,188 @@ footer div{
        width: 80%;
    }
 
-   video{
-       width: 80vw;
+   .contenidoIndex1{
+       width: 100%;
    }
 
+   #videoIndex, .imgIndex{
+       width: 300px;
+   }
+   
    .contenedorPresentacion{
-       width: 100%;
-       flex-wrap: wrap;
-
+       flex-direction: column-reverse;
+       
    }
    .contenidoPresentacion{
        width: 80%;
+       text-align: justify;
+       
+    
+   }
+
+   .imagenPresentacion{
+       max-width: 100%;
+       width: 100%;
+   }
+   
+
+   .presentacion{
+       display: flex;
+       flex-wrap: wrap;
        margin: 0 auto;
-       padding: 5%;
+   }
+
+   .tituloSobreMi{
+       width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 150%;
+        background-color: rgba(236, 208, 171, 0.75);
+        padding: 0 10%;
+        font-family: 'Handlee', cursive;
+        
+   }
+
+   
+   .contenidoImgPres{
+       width: 80%;
+   }
+
+   .parrafoPresentacion{
+       background-color: rgba(236, 208, 171, 0.2);
+       max-width: 100%;
+   }
+
+   .opcionPromocion{
+       width: 100%;
+       padding: 10%;
+   }
+
+   .contenidoPromocion{
+       margin: 0 auto;
+   }
+   .contenedorPromocion{
+       padding-bottom: 30%;
+       width: 100%;
+       
    }
 }
+
+
+
+/*EXTRA SMALL -----------------------*/
+
+@media screen and (max-width: 449px) and (min-width: 0px){
+
+    body{
+        overflow: scroll;
+    }
+   
+    #contenedorHeader{
+       
+    }
+
+    .itemMenu{
+        width: 25%;
+    }
+
+    .contenidoMenu{
+        width: 100%;
+    }
+       
+   
+      #banner{
+          font-size: 200%;
+      }
+
+      #autor{
+          font-size: 100%;
+      }
+      .marca{
+          display: none;
+      }
+   
+      #contenedorHeader .marcaSmall {
+          display: none;
+      }
+   
+      .contenedorFormulario{
+          width: 60%;
+          max-width: 295px;
+      }
+   
+      #contenedorFormComentario{
+          width: 80%;
+      }
+   
+      .contenidoIndex1{
+          width: 100%;
+      }
+   
+      #videoIndex, .imgIndex{
+          width: 100px;
+      }
+      
+      #tituloInicio, .tituloIndex{
+          font-size: 100%;
+      }
+      
+      .contenedorPresentacion{
+          flex-direction: column-reverse;
+          
+      }
+      .contenidoPresentacion{
+          width: 80%;
+          text-align: justify;
+          
+       
+      }
+   
+      .imagenPresentacion{
+          max-width: 100%;
+          width: 100%;
+      }
+      
+   
+      .presentacion{
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 auto;
+      }
+   
+      .tituloSobreMi{
+          width: 20%;
+           display: flex;
+           flex-wrap: wrap;
+           font-size: 150%;
+           background-color: rgba(236, 208, 171, 0.75);
+           padding: 0 10%;
+           font-family: 'Handlee', cursive;
+           
+      }
+   
+      
+      .contenidoImgPres{
+          width: 80%;
+      }
+   
+      .parrafoPresentacion{
+          background-color: rgba(236, 208, 171, 0.2);
+          max-width: 100%;
+      }
+   
+      .opcionPromocion{
+          width: 100%;
+          padding: 10%;
+      }
+   
+      .contenidoPromocion{
+          margin: 0 auto;
+      }
+      .contenedorPromocion{
+          padding-bottom: 30%;
+          width: 100%;
+          
+      }
+   }
+   
