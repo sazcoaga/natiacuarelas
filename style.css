@@ -21,6 +21,10 @@ header{
     
 }
 
+.contenedorInicio{
+    
+}
+
 header div{
   
 }
@@ -592,7 +596,7 @@ footer div{
 
 /*MEDIA CHIQUITO -----------------------*/
 
-@media screen and (max-width: 700px) and (min-width: 450px){
+@media screen and (max-width: 700px) and (min-width: 451px){
    
  #contenedorHeader{
      justify-content: flex-end;
@@ -697,7 +701,7 @@ footer div{
 
 /*EXTRA SMALL -----------------------*/
 
-@media screen and (max-width: 449px) and (min-width: 0px){
+@media screen and (max-width: 450px) and (min-width: 0px){
 
     body{
         overflow: scroll;
